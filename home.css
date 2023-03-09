@@ -1,0 +1,44 @@
+.nav-item{
+    margin-left: 5px;
+}
+.nav1{
+    background-color: white;
+    position: absolute; 
+    z-index: 1;
+    position: fixed;
+    width: 100%;   
+    top: 0%;
+}
+.nav1 i{
+    font-size: 15px;
+}
+.nav2 i{
+    font-size: 1.5rem;
+    /* margin-right: 5px; */
+}
+.nav2{
+    width: 8vw;
+    height: 100vh;
+    position: fixed;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.videos-list{
+    margin-top: 5rem;
+    margin-left: 7rem;
+    padding: 2.5%;
+}
+.video-item{
+    margin-top: .5rem;
+}
+.nav2-list{
+    margin-top: 2.5rem;
+    width: 8vw;
+    padding: 0.5rem;
+
+}
+
+ul{
+    list-style: none;
+}
