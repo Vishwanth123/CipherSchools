@@ -1,0 +1,78 @@
+
+.nav-item{
+    margin-left: 5px;
+}
+.nav1{
+    background-color: white;
+    position: absolute; 
+    z-index: 1;
+    position: fixed;
+    width: 100%;   
+    top: 0%;
+}
+.nav1 i{
+    font-size: 15px;
+}
+.nav2 i{
+    font-size: 1.5rem;
+    /* margin-right: 5px; */
+}
+.nav2 i{
+    font-size: 1.5vw;
+}
+.nav2 p{
+    font-size: 1vw;
+}
+.nav2{
+    width: 8vw;
+    height: 100vh;
+    /* padding-top: 5rem; */
+    position: fixed;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.nav2-list{
+    list-style: none;
+    margin-top: 2.5rem;
+    width: 8vw;
+    padding: 0.5rem;
+
+}
+.video-player{
+    margin-top: 5rem;
+    margin-left: 8vw;
+    padding: 1.5% 1% 0% 2%;
+}
+/* .player-side{
+    width: 75%;
+} */
+.pl-1{
+    padding-left: 1%;
+}
+.player-side{
+    /* width: 70%; */
+    /* display: inline-block; */
+}
+.video-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.username{
+    font-weight: bold;
+}
+.video-item{
+    margin-top: 3%;
+}
+.sideList{
+    /* width: 25%  ; */
+    padding-left: 2%;
+    position: sticky;
+}
+@media (max-width: 1093px) {
+    .player-side{
+        width: 100%;
+    }
+}
+
+
