@@ -1,6 +1,7 @@
 .nav-item{
     margin-left: 5px;
 }
+/* Top NavBar styles */
 .nav1{
     background-color: white;
     position: absolute; 
@@ -16,6 +17,7 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
 }
+/* Side NavBar Styles */
 .nav2 i{
     font-size: 1.5vw;
 }
@@ -39,6 +41,7 @@
     padding: 0.5rem;
 
 }
+/* Styles for Videos List */
 .videos-list{
     margin-top: 3rem;
     margin-left: 8vw;
@@ -56,6 +59,7 @@
     transform: scale(1.1);
     z-index: 9;
 }
+/* Media Queries for Responsiveness for Medium Devices */
 @media ( min-width: 576px ) and (max-width:991px){
     .nav2 p{
         font-size: 0px;
@@ -67,6 +71,7 @@
         font-size: 16px;
     }
 }
+/* Media Queries for Responsiveness for Small Devices */
 @media (max-width: 575px){
     .nav2{
         height: 8vh;
@@ -75,7 +80,6 @@
         bottom: 0;
         position: fixed;
         z-index: 999;
-        /* margin-bottom: 0; */
         display: flex;
         background-color: white;
     }
@@ -87,8 +91,6 @@
         align-items: center;
         margin-top: auto ;
         margin-bottom: auto;
-        /* padding: 0;
-        margin: 0; */
         justify-content: space-evenly;
     }
     .videos-list{

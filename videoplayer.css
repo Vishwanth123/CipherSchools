@@ -1,6 +1,7 @@
 .nav-item{
     margin-left: 5px;
 }
+/* Top NavBAr Styles */
 .nav1{
     background-color: white;
     position: absolute; 
@@ -12,6 +13,7 @@
 .nav1 i{
     font-size: 15px;
 }
+/* Side NavBar Styles */
 .nav2 i{
     font-size: 1.5rem;
 }
@@ -38,17 +40,19 @@
     padding: 0.5rem;
 
 }
+/* Video-player Styles */
 .video-player{
     margin-top: 5rem;
     margin-left: 8vw;
     padding: 1.5% 1% 0% 2%;
 }
+/* padding 1% for some elements */
 .pl-1{
     padding-left: 1%;
 }
+/* Player side width of 75% on large screens */
 .player-side{
     width: 75%;
-    /* display: inline-block; */
 }
 .video-title{
     font-weight: bold;
@@ -60,6 +64,7 @@
 .video-item{
    margin-top: 5%;
 }
+/* Styles of the Side List of More Videos */
 .sideList{
     width: 25% ;
     padding-left: 2%;
@@ -69,12 +74,12 @@
     top: 5rem;
     padding-top: 1.5%;
 }
+/* More Videos List styles */
 .moreVideosList{
     display: flex;
     flex-direction: column;
-    /* padding: 1%; */
-    /* justify-content: space-evenly; */
 }
+/* Styles for Responsiveness on Mediums Devices */
 @media (min-width:576px) and (max-width:991px){
     .player-side{
         width: 100%;
@@ -91,6 +96,7 @@
         margin-top: 3%;
     }
 }
+/* Styles for Responsiveness on Small Devices */
 @media (max-width: 575px){
     .nav2{
         height: 8vh;
@@ -99,7 +105,6 @@
         bottom: 0;
         position: fixed;
         z-index: 999;
-        /* margin-bottom: 0; */
         display: flex;
         background-color: white;
     }
@@ -111,8 +116,6 @@
         align-items: center;
         margin-top: auto ;
         margin-bottom: auto;
-        /* padding: 0;
-        margin: 0; */
         justify-content: space-evenly;
     }
     .videos-list{
@@ -138,7 +141,6 @@
     }
     .video-item{
         margin: 1% 0;
-        /* margin: auto; */
     }
 }
 
