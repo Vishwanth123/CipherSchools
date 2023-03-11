@@ -1,4 +1,3 @@
-
 .nav-item{
     margin-left: 5px;
 }
@@ -15,7 +14,6 @@
 }
 .nav2 i{
     font-size: 1.5rem;
-    /* margin-right: 5px; */
 }
 .nav2 i{
     font-size: 1.5vw;
@@ -26,16 +24,17 @@
 .nav2{
     width: 8vw;
     height: 100vh;
-    /* padding-top: 5rem; */
     position: fixed;
     margin-left: 0;
-    display: flex;
-    flex-direction: column;
 }
 .nav2-list{
+     margin-top: 5rem;
     list-style: none;
-    margin-top: 2.5rem;
     width: 8vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
     padding: 0.5rem;
 
 }
@@ -48,7 +47,7 @@
     padding-left: 1%;
 }
 .player-side{
-    /* width: 70%; */
+    width: 75%;
     /* display: inline-block; */
 }
 .video-title{
@@ -59,12 +58,87 @@
     font-weight: bold;
 }
 .video-item{
-    margin-top: 3%;
+   margin-top: 5%;
 }
 .sideList{
-    /* width: 25%  ; */
+    width: 25% ;
     padding-left: 2%;
-    position: sticky;
+    padding-right: .2%;
+    position: absolute;
+    right: 0;
+    top: 5rem;
+    padding-top: 1.5%;
 }
-
+.moreVideosList{
+    display: flex;
+    flex-direction: column;
+    /* padding: 1%; */
+    /* justify-content: space-evenly; */
+}
+@media (min-width:576px) and (max-width:991px){
+    .player-side{
+        width: 100%;
+    }
+    .sideList{
+        position: static;
+        width:100%;
+        padding-left: 0;
+    }
+    .moreVideosList{
+        flex-direction: row;
+    }
+    .video-item{
+        margin-top: 3%;
+    }
+}
+@media (max-width: 575px){
+    .nav2{
+        height: 8vh;
+        width: 100vw;
+        position: absolute;
+        bottom: 0;
+        position: fixed;
+        z-index: 999;
+        /* margin-bottom: 0; */
+        display: flex;
+        background-color: white;
+    }
+    .nav2-list{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 8vh;
+        align-items: center;
+        margin-top: auto ;
+        margin-bottom: auto;
+        /* padding: 0;
+        margin: 0; */
+        justify-content: space-evenly;
+    }
+    .videos-list{
+        margin-left: auto;
+    }
+    .video-item:hover{
+        box-shadow: none;
+        transform: none;
+    }
+    .nav2 i{
+        font-size: 2.5vh;
+    }
+    .video-player{
+        margin-left: auto;
+    }
+    .player-side{
+        width: 100%;
+    }
+    .sideList{
+        position: static;
+        width: 100%;
+        padding-left: 0;
+    }
+    .video-item{
+        margin: 1% 0;
+        /* margin: auto; */
+    }
+}
 
